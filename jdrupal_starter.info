@@ -6,6 +6,7 @@ dependencies[] = ctools
 dependencies[] = rest_server
 dependencies[] = services
 dependencies[] = strongarm
+dependencies[] = features 
 features[ctools][] = services:services:3
 features[features_api][] = api:2
 features[services_endpoint][] = rest
