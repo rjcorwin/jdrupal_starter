@@ -1,1 +1,11 @@
 name = jdrupal_starter
+core = 7.x
+package = Features
+version = 7.x-0.1
+dependencies[] = ctools
+dependencies[] = rest_server
+dependencies[] = services
+dependencies[] = strongarm
+features[ctools][] = services:services:3
+features[features_api][] = api:2
+features[services_endpoint][] = rest

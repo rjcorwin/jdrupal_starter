@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the jdrupal_starter feature.
+ */
+
+include_once 'jdrupal_starter.features.inc';
